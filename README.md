@@ -4,7 +4,7 @@
 
 This repository contains the projects completed as part of my 30-day Data Science Internship at CognoRise InfoTech.
 
-The internship focuses on developing practical skills in Python, data analysis, exploratory data analysis, machine learning, clustering and data visualisation.
+The internship focuses on developing practical skills in Python, data analysis, exploratory data analysis, machine learning, clustering, forecasting and data visualisation.
 
 ## Internship Projects
 
@@ -110,6 +110,66 @@ The objective is to help businesses understand customer behaviour and develop ta
 
 ---
 
+### Task 3: Retail Sales Forecasting
+
+**Project Overview**
+
+This project focuses on retail sales forecasting by analysing historical sales data to identify trends, seasonal patterns and factors influencing retail sales.
+
+The project involves exploratory data analysis, visualisation, forecasting and model comparison to understand retail sales patterns and predict future sales.
+
+**Objectives**
+- Analyse historical retail sales data.
+- Identify overall sales trends and patterns.
+- Explore seasonal variations in sales.
+- Analyse the impact of holidays on retail sales.
+- Examine sales patterns across different store types and departments.
+- Investigate the influence of external factors on sales.
+- Compare forecasting models.
+- Evaluate actual sales against predicted sales.
+- Analyse feature importance and forecasting errors.
+
+**Dataset**
+- Retail sales dataset.
+- Training data: `train.csv.zip`
+- Features data: `features.csv.zip`
+- Store information: `stores.csv`
+- Test predictions: `test_predictions.csv`
+
+**Project Workflow**
+1. Data Loading and Inspection
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Total Sales Trend Analysis
+5. Seasonality Analysis
+6. Holiday Effect Analysis
+7. Store Type and Size Analysis
+8. External Factors Analysis
+9. Forecasting Model Comparison
+10. Actual vs Forecast Analysis
+11. Feature Importance Analysis
+12. Error Analysis
+
+**Visualisations and Outputs**
+
+The project includes the following visualisations:
+
+- Retail Sales Dashboard
+- Total Sales Trend
+- Seasonality Analysis
+- Holiday Effect Analysis
+- Store Type and Size Analysis
+- Top Stores and Departments
+- External Factors Analysis
+- Model Comparison
+- Actual vs Forecast
+- Feature Importance
+- Error Analysis
+
+**Project Files:** [Task 3 – Retail Sales Forecasting](./Task-3-Retail-Sales-Forecasting/)
+
+---
+
 ## Repository Structure
 
 ```text
@@ -126,6 +186,25 @@ CognoRise-InfoTech/
 │   ├── customer_segmentation.ipynb
 │   ├── Mall_Customers.csv
 │   └── outputs/
+│
+├── Task-3-Retail-Sales-Forecasting/
+│   ├── retail_sales_forecasting.ipynb
+│   ├── train.csv.zip
+│   ├── features.csv.zip
+│   ├── stores.csv
+│   ├── test_predictions.csv
+│   └── outputs/
+│       ├── 00_dashboard.png
+│       ├── 01_total_sales_trend.png
+│       ├── 02_seasonality.png
+│       ├── 03_holiday_effect.png
+│       ├── 04_store_type_size.png
+│       ├── 05_top_stores_depts.png
+│       ├── 06_external_factors.png
+│       ├── 07_model_comparison.png
+│       ├── 08_actual_vs_forecast.png
+│       ├── 09_feature_importance.png
+│       └── 10_error_analysis.png
 │
 ├── .gitignore
 └── README.md
